@@ -1,0 +1,51 @@
+/**
+ * @name kirbyy
+ * @author DevilBro
+ * @version 1.0.5
+ * @description Allows you to use a background image without greatly altering the basic look of Discord.
+ * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground
+ * @authorId 278543574059057154
+ * @BDEditor BasicBackground
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+
+:root {
+  --background: url('https://media2.giphy.com/media/l0HlIDueXmcWNTPO0/giphy.gif?cid=ecf05e471yyfijweujlxjq7nnnmozxe180k6z6npa766c79f&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+  --backgroundsize: cover;
+  --backgroundposition: center;
+  --backgroundblur: 2px;
+  --popout: var(--background);
+  --popoutsize: var(--backgroundsize);
+  --backgroundposition: center;
+  --popoutblur: 0px;
+  --transparencycolor: 0,0,0;
+  --accentcolor: 221,39,101;
+  --backdrop: rgb(18,0,0,0.85);
+  --textshadow: rgb(225,145,145,0);
+  --transparencyalpha: 0.15;
+  --messagetransparency: 0.18;
+  --guildchanneltransparency: 0.15;
+  --chatinputtransparency: 0;
+  --memberlisttransparency: 0;
+  --font: Roboto;
+  --textbrightest: 255,255,255;
+  --textbrighter: 255,255,255;
+  --textbright: 255,243,243;
+  --textdark: 160,160,160;
+  --textdarker: 6,3,3;
+  --textdarkest: 255,135,135;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+}
+
+/* Any custom CSS below here */
+
+
